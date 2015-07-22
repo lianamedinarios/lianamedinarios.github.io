@@ -1,10 +1,12 @@
 header {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
+	width: 100%;
+	background-color: black
 }
 
 nav {
-	background-color: black;
+
 	overflow:hidden;
 
 }
@@ -18,26 +20,90 @@ nav a {
 	/*margin: 20px;*/
 }
 
- nav a:hover{
+nav a:hover{
 	color: #ffffff;
 	background-color: #ff7401;
 }
 
+section{
+	background-image: url("../images/bg.png");
+	overflow: auto;
+}
 
-.cwrapper{
+.cwrapper{ /* repeated class*/
 	width:960px;
 	margin: 0 auto;
+	clear: both;
 }
 
-.socialwidget{
+.floatright{/*repeated class*/
 	float: right;
+/*	clear:right;*/
 }
 
-div img{
 
+#paragraph1{  /*div id*/
+	border:solid white 2px;
+/*	overflow: auto;
+	padding: 10px;*/
+/*	margin: 10px;*/
+}
+
+
+#RequestQuoteImage{
+	padding: 10px; /*or margin */
+}
+
+
+
+.lowerboxes{
+/*	clear:both;*/
+	float:left;
+	width: 33%;
+	margin: 10px auto;
+	/*padding: 5px;*/
+/*	background-image: url("../images/bg.png");*/
+}
+
+
+footer{
+/*	clear:both;*/
+/*	overflow:hidden;*/
+color:white;
+background: black;
+}
+
+.footerboxes{
+	float:left;
+/*	clear:both;*/
+/*	overflow: hidden;*/
+}
+
+#blogroll, #metawidget{
+	width:25%;
+/*	clear:left;*/
 
 }
 
+#textwidget{
+	width:50%;
+/*	clear: both;*/
+}
+
+/*#copyright{
+	float:left;
+}*/
+#theme{
+	float:right;
+}
+
+#fun{
+	clear: both;
+}
+
+/*.readmore{
+	float:right;
+}*/
 
 /*clearing option 1
 nav:after{
